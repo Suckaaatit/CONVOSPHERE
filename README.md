@@ -1,4 +1,4 @@
- CONVO SHPERE chatrooms 
+F.R.I.E.N.D.S chatrooms 
 ## made using next.js, firebase (firestore and auth), chakra-ui
 
 
