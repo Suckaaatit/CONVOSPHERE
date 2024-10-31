@@ -5,18 +5,27 @@ Convo Sphere is a real-time chat application designed for dynamic and responsive
 Features
 
 Real-Time Chat: Provides a smooth, real-time messaging experience with Firebase’s real-time database.
+
 User Authentication: Supports Google and email-based sign-ins using Firebase Auth. Includes options for guest login and account creation.
+
 Sentiment Analysis: Analyzes message sentiments in real time using NLP libraries (VADER and TextBlob), offering users insights into the tone of their conversations.
+
 Responsive UI: Built with Chakra UI to ensure an adaptable and user-friendly interface across devices.
+
 Continuous Deployment: Hosted on Vercel, with continuous integration for seamless and efficient updates.
 
 Technologies Used
 
 Frontend: Gatsby (React-based framework for static sites)
+
 Backend: Firebase (Real-time database and authentication)
+
 NLP Libraries: VADER and TextBlob (for sentiment analysis)
+
 UI: Chakra UI (for responsive design)
+
 Hosting: Vercel (for deployment and continuous integration)
+
 
 Setup and Installation
 
@@ -55,25 +64,35 @@ Deployment (Optional):
 Connect your repository to Vercel and deploy the app for automatic updates with every push.
 
 Usage
+
 Sign In: Users can sign in with Google or email, or enter as guests.
+
 Chat in Real-Time: Messages are synchronized in real-time across users.
+
 Sentiment Analysis: Messages are analyzed for sentiment, showing a dynamic mood indicator based on the conversation’s tone.
+
 Responsive Design: Access Convo Sphere from any device with a consistent and responsive interface.
 
 Project Structure
+
 src/: Contains all the frontend components and pages.
+
 firebaseConfig.js: Firebase configuration setup.
 .env: Environment variables (Firebase credentials).
+
 backend/ (optional): Contains the backend code for NLP processing (if using a Flask or Node server).
 
 Contributing
+
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
 License
+
 This project is licensed under the MIT License.
 
 Contact
 For any questions or support, please contact:
 
 Email: nakashmha@gmail.com
+
 GitHub: suckaaatit
