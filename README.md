@@ -1,10 +1,18 @@
 # **Convo Sphere**
-
 **Convo Sphere** is a real-time chat application designed for dynamic and responsive conversations. It integrates **Natural Language Processing (NLP)** for live sentiment analysis, allowing users to understand the tone and sentiment of messages in real time. Built with **Gatsby** and **Firebase** for a fast and scalable experience, Convo Sphere aims to provide a seamless chat platform with robust features like user authentication and a responsive UI.
 
-## **Features**
+## **System Architecture**
+ ![image](https://github.com/user-attachments/assets/13d34d72-9bcb-4535-b011-8b1a9fc939b4)
 
-- **Real-Time Chat**: Provides a smooth, real-time messaging experience with Firebase’s real-time database.
+
+The above diagram illustrates the core components and their interactions in the Convo Sphere system:
+- **Client Layer (Gatsby)** handles the frontend with Chakra UI components
+- **Firebase Services** manage authentication and real-time data
+- **NLP Service** processes message sentiment using VADER and TextBlob
+- **Continuous Deployment** ensures smooth updates via Vercel
+
+## **Features**
+- **Real-Time Chat**: Provides a smooth, real-time messaging experience with Firebase's real-time database.
 - **User Authentication**: Supports Google and email-based sign-ins using Firebase Auth. Includes options for guest login and account creation.
 - **Sentiment Analysis**: Analyzes message sentiments in real time using NLP libraries (VADER and TextBlob), offering users insights into the tone of their conversations.
 - **Responsive UI**: Built with Chakra UI to ensure an adaptable and user-friendly interface across devices.
