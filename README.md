@@ -1,43 +1,79 @@
-F.R.I.E.N.D.S chatrooms 
-## made using next.js, firebase (firestore and auth), chakra-ui
+Convo Sphere
 
+Convo Sphere is a real-time chat application designed for dynamic and responsive conversations. It integrates Natural Language Processing (NLP) for live sentiment analysis, allowing users to understand the tone and sentiment of messages in real time. Built with Gatsby and Firebase for a fast and scalable experience, Convo Sphere aims to provide a seamless chat platform with robust features like user authentication and a responsive UI.
 
-[deployed on vercel](https://firebase-chatrooms.vercel.app/)
+Features
 
-## Built using
+Real-Time Chat: Provides a smooth, real-time messaging experience with Firebase’s real-time database.
+User Authentication: Supports Google and email-based sign-ins using Firebase Auth. Includes options for guest login and account creation.
+Sentiment Analysis: Analyzes message sentiments in real time using NLP libraries (VADER and TextBlob), offering users insights into the tone of their conversations.
+Responsive UI: Built with Chakra UI to ensure an adaptable and user-friendly interface across devices.
+Continuous Deployment: Hosted on Vercel, with continuous integration for seamless and efficient updates.
 
-#### Front-end Tech
+Technologies Used
 
-- [ReactJS](https://reactjs.org/) - Frontend framework
-- [Next.js](https://nextjs.org/) - React production framework
-- [Chakra-UI](https://chakra-ui.com/) - Chakra-UI & Icons library
-- [React Icons](https://react-icons.github.io/react-icons/) - React Icons library
-- [date-fns](https://date-fns.org/) - Library for manipulating/formatting of timestamps
+Frontend: Gatsby (React-based framework for static sites)
+Backend: Firebase (Real-time database and authentication)
+NLP Libraries: VADER and TextBlob (for sentiment analysis)
+UI: Chakra UI (for responsive design)
+Hosting: Vercel (for deployment and continuous integration)
 
-#### Back-end Tech
+Setup and Installation
 
-- [Firebase](https://firebase.google.com/) - Platform for mobile and web development
+Prerequisites
 
-## Features
+Node.js and npm installed
+Firebase project configured (with Realtime Database and Firebase Authentication enabled)
+Vercel account for deployment (optional)
 
--	Authentication with firebase auth connected to google, or simple email and password
-- Guest Login and account
-- Chat with a single person added by email
-- Chatroom with multiple people
-- Sidebar chat navigation for all the chatrooms
--	Responsive UI for desktop and mobile
--	Loading spinners for backend processes
+Steps
+Clone the repository:
+git clone https://github.com/suckaaatit/convo-sphere.git
+cd convo-sphere
 
-## Usage
-
-#### Client:
-Change firebase config file to connect your own firebase app
-
-Run client:
-
-```
-cd client
+Install dependencies:
 npm install
-npm start
-```
 
+Firebase Configuration:
+
+Go to the Firebase Console and create a new project.
+Enable Firebase Authentication (Google and Email/Password providers).
+Enable Realtime Database and set up the database rules for read and write access.
+Copy your Firebase configuration and create a .env file in the project root
+
+Backend NLP Setup (VADER & TextBlob):
+
+Set up a backend service (e.g., using Flask or Node.js) to handle message sentiment analysis.
+Install VADER and TextBlob libraries
+pip install vaderSentiment textblob
+
+Run the Project:
+npm start
+
+Deployment (Optional):
+
+Connect your repository to Vercel and deploy the app for automatic updates with every push.
+
+Usage
+Sign In: Users can sign in with Google or email, or enter as guests.
+Chat in Real-Time: Messages are synchronized in real-time across users.
+Sentiment Analysis: Messages are analyzed for sentiment, showing a dynamic mood indicator based on the conversation’s tone.
+Responsive Design: Access Convo Sphere from any device with a consistent and responsive interface.
+
+Project Structure
+src/: Contains all the frontend components and pages.
+firebaseConfig.js: Firebase configuration setup.
+.env: Environment variables (Firebase credentials).
+backend/ (optional): Contains the backend code for NLP processing (if using a Flask or Node server).
+
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+License
+This project is licensed under the MIT License.
+
+Contact
+For any questions or support, please contact:
+
+Email: nakashmha@gmail.com
+GitHub: suckaaatit
