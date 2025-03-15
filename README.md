@@ -1,5 +1,5 @@
 # **Convo Sphere**
-**Convo Sphere** is a real-time chat application designed for dynamic and responsive conversations. It integrates **Natural Language Processing (NLP)** for live sentiment analysis, allowing users to understand the tone and sentiment of messages in real time. Built with **Gatsby** and **Firebase** for a fast and scalable experience, Convo Sphere aims to provide a seamless chat platform with robust features like user authentication and a responsive UI.
+**Convo Sphere** is a real-time chat application designed for dynamic and responsive conversations. It integrates **Natural Language Processing (NLP)** for live sentiment analysis, allowing users to understand the tone and sentiment of messages in real-time. Built with **Gatsby** and **Firebase** for a fast and scalable experience, Convo Sphere aims to provide a seamless chat platform with robust features like user authentication and a responsive UI.
 
 ## **System Architecture**
  ![image](https://github.com/user-attachments/assets/13d34d72-9bcb-4535-b011-8b1a9fc939b4)
